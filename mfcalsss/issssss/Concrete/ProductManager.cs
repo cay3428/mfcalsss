@@ -1,6 +1,5 @@
 ﻿
-
-using datacsessssa.cerezzz.Hafıza;
+ 
 using issssss.ana;
 using issssss.cerezzz;
 using System;
@@ -10,22 +9,19 @@ using varlıksss.cerezz;
 
 namespace issssss.cerezzz
 {
-    public class ürünmenejeri : IÜrünservsss
+    public class ProductManager : IProductService
     {
-        ImahsulDal ımahsul;
-
-        public ürünmenejeri (ImahsulDal ımahsulDal)
-        {
-            HafızaMahsulDal = hafızanmahsuldal;
+          
+        public ProductManager (IProdouctDal prodouctDal)
+    { 
 
         }
 
-        public List<mahsul> getall()
+
+        public List<product> getall()
         {
-            return _mahsul.getall(); 
-
-   
-
+          
+             
         }
     }
 }

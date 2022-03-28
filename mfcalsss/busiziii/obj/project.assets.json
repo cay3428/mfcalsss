@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleIU/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataAccsess": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleIU.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleIU.dll": {}
+        }
+      },
+      "DataAccsess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccsess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccsess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleIU/1.0.0": {
+      "type": "project",
+      "path": "../konıu/ConsoleIU.csproj",
+      "msbuildProject": "../konıu/ConsoleIU.csproj"
+    },
+    "DataAccsess/1.0.0": {
+      "type": "project",
+      "path": "../datacsessssa/DataAccsess.csproj",
+      "msbuildProject": "../datacsessssa/DataAccsess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../varlıksss/Entities.csproj",
+      "msbuildProject": "../varlıksss/Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ConsoleIU >= 1.0.0",
+      "DataAccsess >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ACem_\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\busiziii\\busiziii.csproj",
+      "projectName": "busiziii",
+      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\busiziii\\busiziii.csproj",
+      "packagesPath": "C:\\Users\\ACem_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\busiziii\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ACem_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj"
+            },
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj"
+            },
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
