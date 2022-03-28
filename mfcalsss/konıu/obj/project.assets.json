@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DataAccsess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccsess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccsess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataAccsess/1.0.0": {
+      "type": "project",
+      "path": "../datacsessssa/DataAccsess.csproj",
+      "msbuildProject": "../datacsessssa/DataAccsess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../varlıksss/Entities.csproj",
+      "msbuildProject": "../varlıksss/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DataAccsess >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ACem_\\.nuget\\packages\\": {},
@@ -14,9 +52,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\konıu.csproj",
-      "projectName": "konıu",
-      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\konıu.csproj",
+      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj",
+      "projectName": "ConsoleIU",
+      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj",
       "packagesPath": "C:\\Users\\ACem_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\obj\\",
       "projectStyle": "PackageReference",
@@ -37,7 +75,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj"
+            },
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

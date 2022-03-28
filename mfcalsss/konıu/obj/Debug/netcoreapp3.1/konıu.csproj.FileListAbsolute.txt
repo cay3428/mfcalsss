@@ -1,0 +1,13 @@
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\konıu.exe
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\konıu.deps.json
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\konıu.runtimeconfig.json
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\konıu.runtimeconfig.dev.json
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\konıu.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\konıu.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.csprojAssemblyReference.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.AssemblyInfoInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.AssemblyInfo.cs
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.csproj.CoreCompileInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\konıu.genruntimeconfig.cache

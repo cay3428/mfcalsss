@@ -25,6 +25,39 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ConsoleIU/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/ConsoleIU.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleIU.dll": {}
+        }
+      },
+      "DataAccsess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccsess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccsess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -172,10 +205,28 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ConsoleIU/1.0.0": {
+      "type": "project",
+      "path": "../konıu/ConsoleIU.csproj",
+      "msbuildProject": "../konıu/ConsoleIU.csproj"
+    },
+    "DataAccsess/1.0.0": {
+      "type": "project",
+      "path": "../datacsessssa/DataAccsess.csproj",
+      "msbuildProject": "../datacsessssa/DataAccsess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../varlıksss/Entities.csproj",
+      "msbuildProject": "../varlıksss/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "ConsoleIU >= 1.0.0",
+      "DataAccsess >= 1.0.0",
+      "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -186,9 +237,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\issssss.csproj",
-      "projectName": "issssss",
-      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\issssss.csproj",
+      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\Business.csproj",
+      "projectName": "Business",
+      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\Business.csproj",
       "packagesPath": "C:\\Users\\ACem_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\obj\\",
       "projectStyle": "PackageReference",
@@ -209,7 +260,17 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj"
+            },
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj"
+            },
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -241,5 +302,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ConsoleIU is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project ConsoleIU supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "ConsoleIU",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OFno9T3uAg2/GFS2dXJr8ebWiA34alFhef6fx3tOmkZwSRPZZHcu6xh2mRmw9GVUFAusN8AP6mwDwABLrQ9rPA==",
+  "dgSpecHash": "Ot8+wssRlneTvlv2bpLoLJjkNurTpO79EdjvfvHxGVEFN6dLDu7qQanBxHEldS+ri/d+NSe4+rBvmJJqTG6v5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\datacsessssa.csproj",
+  "projectFilePath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

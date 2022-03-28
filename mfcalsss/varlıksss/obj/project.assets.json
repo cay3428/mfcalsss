@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\varlıksss.csproj",
-      "projectName": "varlıksss",
-      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\varlıksss.csproj",
+      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj",
+      "projectName": "Entities",
+      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj",
       "packagesPath": "C:\\Users\\ACem_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\obj\\",
       "projectStyle": "PackageReference",

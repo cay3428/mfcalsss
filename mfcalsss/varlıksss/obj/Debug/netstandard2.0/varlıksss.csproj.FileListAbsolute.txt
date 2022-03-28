@@ -1,0 +1,9 @@
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\bin\Debug\netstandard2.0\varlıksss.deps.json
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\bin\Debug\netstandard2.0\varlıksss.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\bin\Debug\netstandard2.0\varlıksss.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\varlıksss.csprojAssemblyReference.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\varlıksss.AssemblyInfoInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\varlıksss.AssemblyInfo.cs
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\varlıksss.csproj.CoreCompileInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\varlıksss.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\varlıksss.pdb

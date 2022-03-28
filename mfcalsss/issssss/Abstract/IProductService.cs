@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using System.Text;
 using varlıksss.cerezz;
 
-namespace datacsessssa.ana
+namespace issssss.ana
 {
-   public interface ImahsulDal
+   public interface IÜrünservsss
     {
 
-        List<mahsul>
+        List<mahsul> getall();
+
+
+
+
+
 
 
 

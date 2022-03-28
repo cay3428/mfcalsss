@@ -1,0 +1,12 @@
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\datacsessssa.deps.json
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\datacsessssa.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\datacsessssa.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\varlıksss.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\varlıksss.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.csprojAssemblyReference.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.AssemblyInfoInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.AssemblyInfo.cs
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.csproj.CoreCompileInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.csproj.CopyComplete
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\datacsessssa.pdb

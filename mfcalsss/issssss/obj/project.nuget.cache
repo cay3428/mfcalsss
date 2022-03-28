@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6fBoDq9/ZcPfVIXvrz/vBBSIeAQp6QBJtOYxXC8k6U4ZmTgd6Nhza6fHm22ddYat/gGJePaOFqV3j2WDqxYag==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\issssss.csproj",
+  "dgSpecHash": "sUm4GuAhbkEvjpHRAtfQ3jbhiOi+V34IvWBiT+krkuA+0CNYwZU7/3sgL3wiX/K2f/9KeA6ki7Q2iUHY3jlj8w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\issssss\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ConsoleIU is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project ConsoleIU supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "ConsoleIU",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

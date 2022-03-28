@@ -26,14 +26,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "varlıksss/1.0.0": {
+      "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/varlıksss.dll": {}
+          "bin/placeholder/Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/varlıksss.dll": {}
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -183,16 +183,16 @@
         "netstandard.library.nuspec"
       ]
     },
-    "varlıksss/1.0.0": {
+    "Entities/1.0.0": {
       "type": "project",
-      "path": "../varlıksss/varlıksss.csproj",
-      "msbuildProject": "../varlıksss/varlıksss.csproj"
+      "path": "../varlıksss/Entities.csproj",
+      "msbuildProject": "../varlıksss/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "varlıksss >= 1.0.0"
+      "Entities >= 1.0.0",
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -202,9 +202,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\datacsessssa.csproj",
-      "projectName": "datacsessssa",
-      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\datacsessssa.csproj",
+      "projectUniqueName": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj",
+      "projectName": "DataAccsess",
+      "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\DataAccsess.csproj",
       "packagesPath": "C:\\Users\\ACem_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\datacsessssa\\obj\\",
       "projectStyle": "PackageReference",
@@ -226,8 +226,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\varlıksss.csproj": {
-              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\varlıksss.csproj"
+            "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\varlıksss\\Entities.csproj"
             }
           }
         }
