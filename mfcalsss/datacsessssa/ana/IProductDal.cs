@@ -8,7 +8,7 @@ namespace datacsessssa.ana
    public interface IProductDal
     {
 
-        List<Product> getAll();
+        List<Product> GetAll();
 
         void Ekle(Product product);
         void güncelle(Product product);

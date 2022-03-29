@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="cerezzz\EntityFramework\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\varlıksss\varlıksss.csproj" />
+    <ProjectReference Include="..\varlıksss\Entities.csproj" />
   </ItemGroup>
 
 </Project>

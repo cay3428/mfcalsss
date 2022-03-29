@@ -5,12 +5,11 @@ using varlıksss.cerezz;
 
 namespace busiziii.absc
 {
- public class IProductService
+public  interface IProductService
     {
 
-        List<Product> Getall();
 
-
+        List<Product> GetAll();
 
 
     }

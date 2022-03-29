@@ -5,13 +5,13 @@ using varlıksss.ana;
 
 namespace varlıksss.cerezz
 {
-    public class mahsul: IVarlığ
+    public class Product:IEntities
     {
-        public int mahsulId { get; set; }
-        public int ulamId { get; set; }
-        public string Mahsuladı { get; set; }
-        public short yığılım { get; set; }
-        public decimal mahsulFiyat { get; set; }
+        public int ProductId { get; set; }
+        public int KategoriId { get; set; }
+        public string Productadı { get; set; }
+        public short Stok { get; set; }
+        public decimal ProductFiyat { get; set; }
        
 
 

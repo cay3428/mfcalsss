@@ -5,9 +5,9 @@ using varlıksss.ana;
 
 namespace varlıksss.cerezz
 {
-   public  class YığıLıma:IVarlığ
+   public  class Category:IEntities
     {
-        public int Kategrrr { get; set; }
-        public string Kategrrİs { get; set; }
+        public int KategoriId { get; set; }
+        public string KategoriAdı { get; set; }
     }
 }

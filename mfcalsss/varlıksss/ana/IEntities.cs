@@ -5,7 +5,7 @@ using System.Text;
 
 namespace varlıksss.ana
 {
-  public  interface IVarlığ
+  public  interface IEntities
     {
 
 

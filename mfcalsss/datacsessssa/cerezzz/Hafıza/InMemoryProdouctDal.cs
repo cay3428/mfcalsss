@@ -14,7 +14,12 @@ namespace datacsessssa.cerezzz.Hafıza
         public InMemoryProdouctDal()
         {
             _products = new List<Product> {
-              new Product {Productadı="aaaaaaa",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 }
+              new Product {Productadı="thata",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
+              new Product {Productadı="dağkıyısı",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
+             new Product {Productadı="toprakkığı",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
+              new Product {Productadı="alyaz",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
+               new Product {Productadı="tünekalan",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
+                 new Product {Productadı="hüküm",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 }
 
 
 
@@ -27,7 +32,8 @@ namespace datacsessssa.cerezzz.Hafıza
             _products.Add(products);
         }
 
-        public List<Product> getAll()
+        public List<Product> GetAll()
+
         {
             return _products;
 
@@ -82,6 +88,7 @@ namespace datacsessssa.cerezzz.Hafıza
           return  _products.Where(p => p.KategoriId ==categoryId).ToList();
         }
 
+        
     }
 
 

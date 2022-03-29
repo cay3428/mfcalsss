@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\datacsessssa\DataAccsess.csproj" />
+    <ProjectReference Include="..\varlıksss\Entities.csproj" />
+  </ItemGroup>
+
 </Project>
