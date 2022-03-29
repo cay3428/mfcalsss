@@ -15,7 +15,7 @@ namespace datacsessssa.cerezzz.Hafıza
         public InMemoryProdouctDal()
         {
             _products = new List<Product> {
-              new Product { CategoryID=1,ProductID=1,ProductName="tün",UnitinStock=0,UnitPrice=9900},
+              new Product { CategoryID=1,ProductID=1,ProductName="tün",UnitsInStock=0,UnitPrice=9900},
          
 
 
@@ -46,7 +46,7 @@ namespace datacsessssa.cerezzz.Hafıza
             productgüncelle.CategoryID = product.CategoryID;
             productgüncelle.ProductName = product.ProductName;
             productgüncelle.UnitPrice = product.UnitPrice;
-            productgüncelle.UnitinStock = product.UnitinStock;
+            productgüncelle.UnitsInStock = product.UnitsInStock;
 
                
 

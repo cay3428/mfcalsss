@@ -32,7 +32,7 @@ namespace busiziii.concan
 
         }
 
-        public List<Product> GetAllByCategor(int id)
+        public List<Product> GetAllByCategory(int id)
         {
 
             return _productDal.GetAll(p => p.CategoryID == id );

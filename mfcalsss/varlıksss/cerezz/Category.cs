@@ -7,7 +7,7 @@ namespace varlıksss.cerezz
 {
    public  class Category:IEntities
     {
-        public int KategoriId { get; set; }
-        public string KategoriAdı { get; set; }
+        public int CategoryID{ get; set; }
+        public string CategoryName { get; set; }
     }
 }
