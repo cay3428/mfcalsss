@@ -2,23 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 using varlıksss.cerezz;
+using DataAccsess.ana;
 
 namespace datacsessssa.ana
 {
-   public interface IProductDal
+   public interface IProductDal: IEntityRespository <Product>
     {
-
-        List<Product> GetAll();
-
-        void Ekle(Product product);
-        void güncelle(Product product);
-        void yoket(Product product);
-
-        List<Product> Getallbycategory(int categoryId);
-
-
-
-
 
     }
 }

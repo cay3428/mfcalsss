@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using varlıksss.cerezz;
 
 namespace datacsessssa.cerezzz.Hafıza
 {
     public class InMemoryProdouctDal : IProductDal
-       
+
     {
         List<Product> _products;
         public InMemoryProdouctDal()
@@ -88,7 +89,15 @@ namespace datacsessssa.cerezzz.Hafıza
           return  _products.Where(p => p.KategoriId ==categoryId).ToList();
         }
 
-        
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

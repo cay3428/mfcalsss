@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Entities.cerezz;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DataAccsess.ana
 {
-    interface ICustomerDal
+ public    interface ICustomerDal: IEntityRespository <Customer>
     {
     }
 }
