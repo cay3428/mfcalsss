@@ -16,7 +16,7 @@ namespace konıu
             foreach (var product in productManager.GetAll())
             {
 
-                Console.WriteLine(product.Productadı);
+                Console.WriteLine(product.ProductName);
 
 
 

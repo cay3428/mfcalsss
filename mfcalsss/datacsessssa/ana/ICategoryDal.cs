@@ -9,13 +9,13 @@ namespace DataAccsess.ana
 
   public     interface ICategoryDal:IEntityRespository <Category>
     {
-        List<Category> GetAll();
+        //List<Category> GetAll();
 
-        void Ekle(Category category);
-        void güncelle(Category category);
-        void yoket(Category category);
+        //void Ekle(Category category);
+        //void güncelle(Category category);
+        //void yoket(Category category);
 
-        List<Category> Getallbycategory(int categoryId);
+        //List<Category> Getallbycategory(int categoryId);
 
 
 

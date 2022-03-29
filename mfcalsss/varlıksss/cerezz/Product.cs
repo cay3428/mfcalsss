@@ -7,11 +7,11 @@ namespace varlıksss.cerezz
 {
     public class Product:IEntities
     {
-        public int ProductId { get; set; }
-        public int KategoriId { get; set; }
-        public string Productadı { get; set; }
-        public short Stok { get; set; }
-        public decimal ProductFiyat { get; set; }
+        public int ProductID { get; set; }
+        public int CategoryID { get; set; }
+        public string ProductName { get; set; }
+        public short UnitinStock { get; set; }
+        public decimal UnitPrice { get; set; }
        
 
 

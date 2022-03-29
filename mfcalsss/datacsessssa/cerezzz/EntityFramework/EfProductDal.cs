@@ -43,7 +43,7 @@ namespace DataAccsess.cerezzz.EntityFramework
         public List<Product> GetAll()
         {
 
-            return new List<Product> { new Product { Productadı = "listett" }, new Product { Productadı = "su" } };
+            return new List<Product> { new Product { ProductName = "listett" }, new Product { ProductName = "su" } };
 
         }
 
@@ -51,7 +51,9 @@ namespace DataAccsess.cerezzz.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                return filter == null ? context.Set<Product>().ToList() : context.Set<Product>().Where(filter).ToList();
+                return filter == null
+                   ? context.Set<Product>().ToList() 
+                    : context.Set<Product>().Where(filter).ToList();
                                                                                                                          
 
 

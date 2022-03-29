@@ -15,13 +15,8 @@ namespace datacsessssa.cerezzz.Hafıza
         public InMemoryProdouctDal()
         {
             _products = new List<Product> {
-              new Product {Productadı="thata",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
-              new Product {Productadı="dağkıyısı",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
-             new Product {Productadı="toprakkığı",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
-              new Product {Productadı="alyaz",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
-               new Product {Productadı="tünekalan",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 },
-                 new Product {Productadı="hüküm",ProductFiyat=15,ProductId=1,KategoriId=6,Stok=80 }
-
+              new Product { CategoryID=1,ProductID=1,ProductName="tün",UnitinStock=0,UnitPrice=9900},
+         
 
 
 
@@ -47,11 +42,11 @@ namespace datacsessssa.cerezzz.Hafıza
 
         public void güncelle(Product product)
         {
-            Product productgüncelle = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
-            productgüncelle.KategoriId = product.KategoriId;
-            productgüncelle.Productadı = product.Productadı;
-            productgüncelle.ProductFiyat = product.ProductFiyat;
-            productgüncelle.Stok = product.Stok;
+            Product productgüncelle = _products.SingleOrDefault(p => p.ProductID == product.ProductID);
+            productgüncelle.CategoryID = product.CategoryID;
+            productgüncelle.ProductName = product.ProductName;
+            productgüncelle.UnitPrice = product.UnitPrice;
+            productgüncelle.UnitinStock = product.UnitinStock;
 
                
 
@@ -68,7 +63,7 @@ namespace datacsessssa.cerezzz.Hafıza
             Product productyoket = null;
             foreach (var p in _products )
             {
-                if (product.ProductId==p.ProductId)
+                if (product.ProductID==p.ProductID)
                 {
 
                     productyoket = p;
@@ -77,7 +72,7 @@ namespace datacsessssa.cerezzz.Hafıza
 
                 
             }
-            productyoket = _products.SingleOrDefault(p=>p.ProductId==product.ProductId);
+            productyoket = _products.SingleOrDefault(p=>p.ProductID==product.ProductID);
 
 
             _products.Remove(productyoket);
@@ -86,7 +81,7 @@ namespace datacsessssa.cerezzz.Hafıza
          public List<Product> getallbycategory(int categoryId)
         {
 
-          return  _products.Where(p => p.KategoriId ==categoryId).ToList();
+          return  _products.Where(p => p.CategoryID ==categoryId).ToList();
         }
 
         public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)

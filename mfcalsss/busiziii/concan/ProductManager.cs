@@ -35,12 +35,12 @@ namespace busiziii.concan
         public List<Product> GetAllByCategor(int id)
         {
 
-            return _productDal.GetAll(p => p.KategoriId == id );
+            return _productDal.GetAll(p => p.CategoryID == id );
         }
 
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
-            return _productDal.GetAll(p => p.ProductFiyat <= min && p.ProductFiyat <= max);
+            return _productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max);
         }
     }
 }
