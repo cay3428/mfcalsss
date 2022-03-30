@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Core.DataAccsess;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using varlıksss.ana;
+ 
 using varlıksss.cerezz;
 
 namespace DataAccsess.ana
 {
 
-  public     interface ICategoryDal:IEntityRespository <Category>
+    public interface ICategoryDal : IEntityRespository<Category>
     {
         //List<Category> GetAll();
 

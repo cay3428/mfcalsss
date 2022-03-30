@@ -10,3 +10,5 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstan
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\DataAccsess.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\DataAccsess.pdb
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\obj\Debug\netstandard2.0\DataAccsess.csproj.CoreCompileInputs.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\Core.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\datacsessssa\bin\Debug\netstandard2.0\Core.pdb

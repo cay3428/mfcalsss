@@ -17,8 +17,8 @@ namespace DataAccsess.cerezzz.EntityFramework
           public DbSet<Product> products { get; set; }
         public DbSet<Category> categories { get; set; }
             public DbSet <Customer>customer { get; set; }
-        
-        
+            public DbSet<Order> Orders { get; set; }
+
         
         
         }

@@ -7,3 +7,6 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstanda
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\bin\Debug\netstandard2.0\Core.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\varlıksss\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace varlıksss.ana
+namespace Core.Entities
 {
   public  interface IEntities
     {

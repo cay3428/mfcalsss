@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using System.Text;
-using System.Web.Mvc;
-using Entities.cerezz;
-using varlıksss.ana;
+using Core.Entities;
 
-namespace DataAccsess.ana
+namespace Core.DataAccsess
 
 
 
 
 
-    //IEntity :Ientity olabilir veya Ientity implemente eden var nesne olabilir
+//IEntity :Ientity olabilir veya Ientity implemente eden var nesne olabilir
 
 
 
@@ -22,7 +19,7 @@ namespace DataAccsess.ana
 
 
 {
- public    interface IEntityRespository <T> where T:class,IEntities,new()
+    public    interface IEntityRespository <T> where T:class,IEntities,new()
     { 
 
 
