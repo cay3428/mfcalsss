@@ -11,23 +11,27 @@ namespace konıu
     {
         static void Main(string[] args)
         {
-            CategoryManager categoryManager = new CategoryManager(new EfCategoryDal ());
-            foreach (var category in categoryManager.GetAll()) 
+
+
+            ProductTest();
+
+        }
+        private static void CategoryTest()
+        {
+            CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+            foreach (var category in categoryManager.GetAll())
             {
                 Console.WriteLine(category.CategoryName);
-            }         
-
-
-
+            }
         }
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetByUnitPrice(40, 100))//GetAll
+            foreach (var product in productManager.GetProductDetails())//GetAll
             {
 
-                Console.WriteLine(product.ProductName + "/" + product.CategoryID);
+                Console.WriteLine(product.ProductName + "/" + product.CategoryName);
 
 
             }

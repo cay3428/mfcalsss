@@ -1,6 +1,7 @@
 ﻿using busiziii.absc;
 using datacsessssa.ana;
 using datacsessssa.cerezzz.Hafıza;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -41,6 +42,13 @@ namespace busiziii.concan
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max);
+        }
+
+        public List<ProductDetailDto> GetProductDetails()
+        {
+
+            return _productDal.GetProductDetails();
+
         }
     }
 }

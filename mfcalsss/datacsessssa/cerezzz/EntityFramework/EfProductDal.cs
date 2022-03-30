@@ -1,5 +1,6 @@
 ﻿using Core.DataAccsess.EntityFramework;
 using datacsessssa.ana;
+using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,30 @@ using varlıksss.cerezz;
 
 namespace DataAccsess.cerezzz.EntityFramework
 {
-    public class EfProductDal : EfEntityResporityBase<Product,NorthwindContext>,IProductDal
+    public class EfProductDal : EfEntityResporityBase<Product, NorthwindContext>, IProductDal
     {
-       
+        public List<ProductDetailDto> GetProductDetails()
+        {
+            using (NorthwindContext context = new NorthwindContext ())
+            {
+                var result = from p in context.products
+                             join c in context.categories
+                              on p.CategoryID equals c.CategoryID
+                             select new ProductDetailDto { ProductId = p.ProductID, ProductName = p.ProductName, CategoryName = c.CategoryName, UnitsInStock = p.UnitsInStock };
+
+
+
+
+
+                return result.ToList();
+            }                         
+
+
+
+
+
+
+        }
     }
 }
 //public void Ekle(Product entity)
