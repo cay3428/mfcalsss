@@ -27,7 +27,7 @@ namespace konıu
             foreach (var product in productManager.GetByUnitPrice(40, 100))//GetAll
             {
 
-                Console.WriteLine(product.ProductName);
+                Console.WriteLine(product.ProductName + "/" + product.CategoryID);
 
 
             }
