@@ -27,43 +27,44 @@ namespace busiziii.concan
         //{
         //    _productDal.Add(product);
         //}
-
+         
          
 
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour==22)
             {
-                return new ErrorResult();
+                return new ErrorDataResult<List<Product>>(Messages.MaintenceTime);
             }
 
 
-            return  new SuccesDataResult  <List<Product>> ( _productDal.GetAll(),true ,"listelendi");
+            return  new SuccesDataResult<List<Product>> ( _productDal.GetAll(),Messages.ProductsListed);
 
              
 
         }
 
-        public IDataResult < List<Product>> GetAllByCategory(int id)
+        public IDataResult < List<Product>> GetAllByCategoryId(int id)
         {
 
-            return  _productDal.GetAll(p => p.CategoryID == id );
+            return new SuccesDataResult<List<Product>> (_productDal.GetAll(p => p.CategoryID == id ));
         }
 
         public IDataResult < Product> GetById(int procudtId)
         {
-            return _productDal.Get(p => p.ProductID == procudtId);
+             return new SuccesDataResult<Product> (_productDal.Get(p => p.ProductID == procudtId));
+            
         }
 
-        public IDataResult< List<Product>> GetByUnitPrice(decimal min, decimal max)
+        public SuccesDataResult< List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
-            return _productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max);
+            return new SuccesDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max));
         }
 
-        public IDataResult< List<ProductDetailDto>> GetProductDetails()
+        public SuccesDataResult < List<ProductDetailDto>> GetProductDetails()
         {
 
-            return _productDal.GetProductDetails();
+            return   new SuccesDataResult<List<ProductDetailDto>> ( _productDal.GetProductDetails());
 
         }
 

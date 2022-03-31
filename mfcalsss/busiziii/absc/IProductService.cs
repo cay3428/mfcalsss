@@ -9,17 +9,24 @@ namespace busiziii.absc
 {
 public  interface IProductService
     {
-
-
-        List<Product> GetAll();
-        List<Product> GetAllByCategory(int id);
-        List<Product> GetByUnitPrice(decimal min,decimal max);
-
-        List<ProductDetailDto> GetProductDetails();
-
-        Product GetById(int procudtId);
         //void Add(Product product);
+
+        //List<Product> GetAll();
+        IDataResult<List<Product>> GetAllByCategory(int id);
+      IDataResult < List<Product>> GetByUnitPrice(decimal min,decimal max);
+
+       IDataResult <List<ProductDetailDto>> GetProductDetails();
+
+     IDataResult   < Product> GetById(int procudtId);
+      
         IResult Add(Product product);
+        
+        IDataResult<List<Product>> GetAll();
+
+
+
+
+
 
 
     }
