@@ -6,8 +6,7 @@ namespace Core.Utilities.Results
 {
     public class Result : IResult
     {
-        //private bool v1;
-        //private string v2;
+     
 
 
         public Result(bool success, string message) : this (success )
@@ -16,8 +15,7 @@ namespace Core.Utilities.Results
 
             Message = message;
 
-            //this.v1 = v1;
-            //this.v2 = v2;
+           
         }
 
         public Result (bool success)
@@ -33,3 +31,7 @@ namespace Core.Utilities.Results
         public string Message { get; }
     }
 }
+//this.v1 = v1;
+//this.v2 = v2;
+//private bool v1;
+//private string v2;

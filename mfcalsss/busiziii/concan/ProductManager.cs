@@ -56,12 +56,12 @@ namespace busiziii.concan
             
         }
 
-        public SuccesDataResult< List<Product>> GetByUnitPrice(decimal min, decimal max)
+        public IDataResult< List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
             return new SuccesDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max));
         }
 
-        public SuccesDataResult < List<ProductDetailDto>> GetProductDetails()
+        public IDataResult < List<ProductDetailDto>> GetProductDetails()
         {
 
             return   new SuccesDataResult<List<ProductDetailDto>> ( _productDal.GetProductDetails());
@@ -88,6 +88,8 @@ namespace busiziii.concan
             
             return new SuccessResult("eklendş");
         }
+
+        
     }
 }
 
