@@ -1,4 +1,5 @@
 ﻿using busiziii.absc;
+using Core.Utilities.Results;
 using datacsessssa.ana;
 using datacsessssa.cerezzz.Hafıza;
 using Entities.DTOs;
@@ -21,8 +22,12 @@ namespace busiziii.concan
 
         }
 
+        public void Add(Product product)
+        {
+            _productDal.Add(product);
+        }
 
-
+         
 
         public List<Product> GetAll()
         {
@@ -39,6 +44,11 @@ namespace busiziii.concan
             return _productDal.GetAll(p => p.CategoryID == id );
         }
 
+        public Product GetById(int procudtId)
+        {
+            return _productDal.Get(p => p.ProductID == procudtId);
+        }
+
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max);
@@ -49,6 +59,11 @@ namespace busiziii.concan
 
             return _productDal.GetProductDetails();
 
+        }
+
+        IResult IProductService.Add(Product product)
+        {
+            throw new NotImplementedException();
         }
     }
 }

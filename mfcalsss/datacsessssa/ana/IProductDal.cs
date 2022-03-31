@@ -11,8 +11,6 @@ namespace datacsessssa.ana
     public interface IProductDal : IEntityRespository<Product>
     {
         List<ProductDetailDto> GetProductDetails();
-
-
-
+        void Add(Product product);
     }
 }

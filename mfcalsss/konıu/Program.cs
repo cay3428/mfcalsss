@@ -12,8 +12,8 @@ namespace konıu
         static void Main(string[] args)
         {
 
-
-            ProductTest();
+            //CategoryTest();
+            //ProductTest();
 
         }
         private static void CategoryTest()
