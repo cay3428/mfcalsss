@@ -13,6 +13,11 @@ namespace DataAccsess.cerezzz.EntityFramework
 {
     public class EfProductDal : EfEntityResporityBase<Product, NorthwindContext>, IProductDal
     {
+        public void Add(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<ProductDetailDto> GetProductDetails()
         {
             using (NorthwindContext context = new NorthwindContext ())

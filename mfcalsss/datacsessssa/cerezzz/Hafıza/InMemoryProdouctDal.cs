@@ -99,6 +99,11 @@ namespace datacsessssa.cerezzz.Hafıza
         {
             throw new NotImplementedException();
         }
+
+        public void Add(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
