@@ -24,17 +24,32 @@ namespace konıu
                 Console.WriteLine(category.CategoryName);
             }
         }
-        private static void ProductTest()
+        private  static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetProductDetails())//GetAll
+            var result = productManager.GetProductDetails();
+
+            if (result.Success==true  )
             {
 
-                Console.WriteLine(product.ProductName + "/" + product.CategoryName);
+                foreach (var product in result.Data )//GetAll
+                {
+
+                    Console.WriteLine(product.ProductName + "/" + product.CategoryName);
 
 
+                }
+               
             }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+
+
+
+
         }
 
     }

@@ -34,7 +34,7 @@ namespace busiziii.concan
         {
             if (DateTime.Now.Hour==22)
             {
-                return new ErrorDataResult<List<Product>>(Messages.MaintenceTime);
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
 
 
@@ -44,10 +44,15 @@ namespace busiziii.concan
 
         }
 
-        public IDataResult < List<Product>> GetAllByCategoryId(int id)
+        public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            }
 
-            return new SuccesDataResult<List<Product>> (_productDal.GetAll(p => p.CategoryID == id ));
+
+            return new SuccesDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryID == id));
         }
 
         public IDataResult < Product> GetById(int procudtId)
@@ -63,6 +68,10 @@ namespace busiziii.concan
 
         public IDataResult < List<ProductDetailDto>> GetProductDetails()
         {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
+            }
 
             return   new SuccesDataResult<List<ProductDetailDto>> ( _productDal.GetProductDetails());
 
@@ -89,7 +98,7 @@ namespace busiziii.concan
             return new SuccessResult("eklendş");
         }
 
-        
+       
     }
 }
 

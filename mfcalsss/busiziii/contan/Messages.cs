@@ -9,7 +9,8 @@ namespace busiziii.contan
     {
         public static string ProductAdded = "Ürün eğlendş";
         public static string ProductNameInvalid = "ürünismi ğecerçişz";
-        internal static List<Product> MaintenceTime;
-        internal static string ProductsListed;
+        internal static string MaintenanceTime = "sistem bakımda";
+        internal static string ProductsListed = "Ürüler listelendş";
+        
     }
 }

@@ -12,7 +12,7 @@ public  interface IProductService
         //void Add(Product product);
 
         //List<Product> GetAll();
-        IDataResult<List<Product>> GetAllByCategory(int id);
+        IDataResult<List<Product>> GetAllByCategoryId(int id);
       IDataResult < List<Product>> GetByUnitPrice(decimal min,decimal max);
 
        IDataResult <List<ProductDetailDto>> GetProductDetails();

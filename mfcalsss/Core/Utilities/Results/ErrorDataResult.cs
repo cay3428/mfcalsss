@@ -6,6 +6,8 @@ namespace Core.Utilities.Results
 {
    public  class ErrorDataResult <T> : DataResult<T> 
     {
+        //public List<global::varlıksss.cerezz.Product> MaintenceTime { get; }
+
         public ErrorDataResult(T data, string message) : base(data, true, message)
         {
 
@@ -26,10 +28,9 @@ namespace Core.Utilities.Results
 
         }
 
-
-
-
-
-
+        //public ErrorDataResult(List<global::varlıksss.cerezz.Product> maintenceTime)
+        //{
+        //    MaintenceTime = maintenceTime;
+        //}
     }
 }
