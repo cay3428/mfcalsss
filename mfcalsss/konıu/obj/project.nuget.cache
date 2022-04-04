@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GmpdvQut2uB0hNcSX/rv2PIzRlypZWYp4fZnSDrsjpmS9wXYSoD/zw1byFaukRslD5NKxppfOgkUZoq3gOFlyQ==",
+  "dgSpecHash": "eSVnDALX0s7a+j0RLJUeyX/jghqcskqQ307GY7Gr/L10B9I0V8bisyf7RQBO4rfK9A80H2w/Vx5sZE24jL8PYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\konıu\\ConsoleIU.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ACem_\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",

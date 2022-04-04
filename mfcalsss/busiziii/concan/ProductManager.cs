@@ -77,8 +77,18 @@ namespace busiziii.concan
 
         }
 
+        //[LogAspect]-->AOP
+        //    [Validate]
+        //    [RemoveCache]
+        //    [Transcation]
+        //    [Performance]
+
     public    IResult Add(Product product)
         {
+
+
+
+
             if (product.ProductName.Length<2)
             {
 

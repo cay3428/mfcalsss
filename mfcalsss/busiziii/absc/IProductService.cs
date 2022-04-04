@@ -17,10 +17,10 @@ public  interface IProductService
 
        IDataResult <List<ProductDetailDto>> GetProductDetails();
 
-     IDataResult   < Product> GetById(int procudtId);
+     IDataResult   <Product> GetById(int procudtId);
       
         IResult Add(Product product);
-        
+         
         IDataResult<List<Product>> GetAll();
 
 

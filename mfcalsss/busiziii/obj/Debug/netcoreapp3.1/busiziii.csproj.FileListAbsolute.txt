@@ -1,7 +1,6 @@
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\obj\Debug\netcoreapp3.1\busiziii.csprojAssemblyReference.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\obj\Debug\netcoreapp3.1\busiziii.AssemblyInfoInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\obj\Debug\netcoreapp3.1\busiziii.AssemblyInfo.cs
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\obj\Debug\netcoreapp3.1\busiziii.csproj.CoreCompileInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\busiziii.exe
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\busiziii.deps.json
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\busiziii.runtimeconfig.json

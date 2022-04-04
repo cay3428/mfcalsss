@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using busiziii.absc;
 using busiziii.concan;
+using DataAccsess.cerezzz.EntityFramework;
+using datacsessssa.ana;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +31,11 @@ namespace WebAPI
         {
             services.AddControllers();
             services.AddSingleton<IProductService,ProductManager>();
+            services.AddSingleton<IProductDal, EfProductDal>();
+
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

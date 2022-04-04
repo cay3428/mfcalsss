@@ -22,16 +22,57 @@ namespace WebAPI.Controllers
             _productService = productService;
         }
 
-        [HttpGet("Get")]
+        [HttpGet("getAll")]
     
-        public List<Product>  Get() //IActionResult
+        public IActionResult  GetAll() //IActionResult
         {
-            IProductService productService = new ProductManager(new EfProductDal());
-            var result = productService.GetAll();
-            return result.Data;
+            // IProductService productService = new ProductManager(new EfProductDal());
+            var result = _productService.GetAll();
+
+            if (result.Success)
+            {
+
+
+                return Ok(result.Data );
+
+
+            }
+
+            return BadRequest(result);
+
+        }
+
+        [HttpGet("getbyid")]
+        public IActionResult GetById (int id)
+        {
+            var result = _productService.GetById(id);
+                if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+
+        }
+
+
+
+        [HttpPost("add")]
+         public IActionResult Add(Product product)
+        {
+            var result = _productService.Add(product );
+            if (result.Success )
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+
 
 
         }
+
+
     }
 }
 
