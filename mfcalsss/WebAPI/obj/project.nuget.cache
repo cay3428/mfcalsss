@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "h57zrGxsFk0/WgIPFyzSOWM7PG8x/02xUWpUxnVcE1p4C3ARN4aV+Z8QVbgrX36bbCSy0jr4kaRk7O3q3GrL+g==",
+  "dgSpecHash": "4ueYqxjp2RrnfWwtRrJYhZyPQ0t2UmPatqwCoXKTmpArdG7azwZMKlZ3TWZwRS8PqQv3h2X/jsj4Y0xX10yleg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACem_\\Documents\\GitHub\\mfcalsss\\mfcalsss\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACem_\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\ACem_\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\ACem_\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",

@@ -64,3 +64,5 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\obj\Debug\netcoreapp3.1\busiziii.csproj.CoreCompileInputs.cache

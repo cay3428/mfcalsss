@@ -10,8 +10,6 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
@@ -74,3 +72,4 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1\DataAccsess.pdb
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
