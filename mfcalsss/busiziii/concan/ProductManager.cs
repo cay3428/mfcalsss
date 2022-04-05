@@ -1,9 +1,12 @@
 ﻿using busiziii.absc;
 using busiziii.contan;
+using busiziii.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using datacsessssa.ana;
 using datacsessssa.cerezzz.Hafıza;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -86,15 +89,9 @@ namespace busiziii.concan
     public    IResult Add(Product product)
         {
 
+            ValidationTool.Validate(new ProductValidator(), product);
+            
 
-
-
-            if (product.ProductName.Length<2)
-            {
-
-                return new ErrorResult(Messages.ProductNameInvalid);
-
-            }
             _productDal.Add(product);
 
 
@@ -112,3 +109,26 @@ namespace busiziii.concan
     }
 }
 
+
+////if (product.UnitPrice <= 0)
+
+////{
+
+
+////    return new ErrorResult(Messages.UnitPriceInvalid);
+
+
+
+
+////}
+
+
+
+
+
+////if (product.ProductName.Length < 2)
+////{
+
+////    return new ErrorResult(Messages.ProductNameInvalid);
+
+////}

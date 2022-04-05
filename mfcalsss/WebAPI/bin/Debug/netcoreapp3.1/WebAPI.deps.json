@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "WebAPI/1.0.0": {
         "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.2.0",
           "Core": "1.0.0",
           "DataAccsess": "1.0.0",
           "Entities": "1.0.0",
@@ -317,6 +318,32 @@
         },
         "compile": {
           "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/7.2.0": {
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.11"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "FluentValidation/10.4.0": {
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.4.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc/5.2.7": {
@@ -1469,7 +1496,8 @@
         "dependencies": {
           "Autofac": "6.3.0",
           "DataAccsess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation": "10.4.0"
         },
         "runtime": {
           "busiziii.dll": {}
@@ -1480,6 +1508,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "10.4.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "runtime": {
@@ -3142,6 +3171,20 @@
       "sha512": "sha512-gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
       "path": "autofac/6.3.0",
       "hashPath": "autofac.6.3.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S2Jor8pTV+8QSs96ENq/FhGdnrWsntGs93z0OXYlIivUWGPNXQHNCjFPfSBeBlHClvJFEXMvlkY32bAKy2YkPg==",
+      "path": "autofac.extensions.dependencyinjection/7.2.0",
+      "hashPath": "autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512"
+    },
+    "FluentValidation/10.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rVI1b5L3pq3layrRKIo3N7AT3PWey8ocPZhf6zeHYf6LBBvnP1KzW3bm7KmeazOWW8m1KXMD+shfviIcKSgQ0g==",
+      "path": "fluentvalidation/10.4.0",
+      "hashPath": "fluentvalidation.10.4.0.nupkg.sha512"
     },
     "Microsoft.AspNet.Mvc/5.2.7": {
       "type": "package",
