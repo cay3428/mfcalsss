@@ -5,27 +5,31 @@ using busiziii.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
+using DataAccsess.ana;
 using datacsessssa.ana;
 using datacsessssa.cerezzz.Hafıza;
 using Entities.DTOs;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using varlıksss.cerezz;
+using static Core.Utilities.Business.BusinnesRules;
 
 namespace busiziii.concan
 {
     public class ProductManager : IProductService
     {
-       IProductDal  _productDal;
-        ILogger _logger;
+        ICategoryService _categoryService;
+        IProductDal  _productDal;
+        // ICategoryDal _categoryDal;
 
 
-
-        public ProductManager (IProductDal productDal)
+        public ProductManager(IProductDal productDal,ICategoryService categoryService)
         {
-
+            _categoryService = categoryService;
+           // _categoryDal= categoryDal;
 
             _productDal = productDal;
 
@@ -88,40 +92,115 @@ namespace busiziii.concan
         //[LogAspect]-->AOP
         //    [Validate]
         //    [RemoveCache]
-        //    [Transcation]
+        //    [Transcation] 
         //    [Performance]
         [ValidationAspect(typeof(Product ))]
 
     public    IResult Add(Product product)
         {
-            _logger.Log();
-            try
+      IResult result =     BusinessRules.Run(CheckIfProductNameExistst(product.ProductName),
+            CheckIfProductCountOFCategoryCorrect (product.CategoryID));
+             
+            if(result != null)
             {
-                _productDal.Add(product);
-
-
-                return new SuccessResult(Messages.ProductAdded);
-
-            }
-            catch (Exception exception)
-            {
-
-                _logger.Log();
+                return result;
             }
 
-            return new ErrorResult(); 
+
+            if (CheckIfProductCountOFCategoryCorrect(product.CategoryID).Success)
+            {
+                if (CheckIfProductNameExistst(product.ProductName).Success)
+                {
+
+                    _productDal.Add(product);
+
+                    return new SuccessResult(Messages.ProductAdded);
+
+                }
+
+
+
+            }
+
+
+            return new ErrorResult();
+            //kategori sınırı 15
+
+
+
+            //_logger.Log();
+            //try
+            //{
+
+
+            //    return new SuccessResult(Messages.ProductAdded);
+
+            //}
+            //catch (Exception exception)
+            //{
+
+            //    _logger.Log();
+            //}
+
 
             //ValidationTool.Validate(new ProductValidator(), product);
-            
-
-          
-     
-            
-            
 
         }
 
-       
+        [ValidationAspect (typeof (ProductValidator))]
+
+        public IResult Update(Product product)
+        {
+
+            var result = _productDal.GetAll(p => p.CategoryID == product.CategoryID).Count;
+
+            if (result >= 10)
+            {
+
+                return new ErrorResult(Messages.ProductCountofCategoryError);
+
+            }
+
+            throw new    NotImplementedException();
+
+
+        }
+
+        private IResult CheckIfProductCountOFCategoryCorrect(int categoryID)
+        {
+            //Select count(*) from product where category ıd=1
+            var result = _productDal.GetAll(p => p.CategoryID == categoryID).Count;
+
+            if (result >= 15)
+            {
+
+                return new ErrorResult(Messages.ProductCountofCategoryError);
+
+            }
+            return new SuccessResult();
+                    
+        }
+
+        private IResult CheckIfProductNameExistst(string productName)
+        {
+            //Select count(*) from product where category ıd=1
+            var result = _productDal.GetAll(p => p.ProductName == productName).Any();
+
+            if (result )
+            {
+
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
+
+            }
+            return new SuccessResult();
+
+        }
+
+
+
+
+
+
     }
 }
 

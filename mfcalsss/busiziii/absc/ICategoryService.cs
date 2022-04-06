@@ -5,7 +5,7 @@ using varlıksss.cerezz;
 
 namespace busiziii.absc
 {
-    interface ICategoryService
+  public  interface ICategoryService
     {
         List<Category> GetAll();
         List<Category> GetById(int categoryId);

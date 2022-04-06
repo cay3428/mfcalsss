@@ -11,6 +11,7 @@ namespace busiziii.contan
         public static string ProductNameInvalid = "ürünismi ğecerçişz";
         internal static string MaintenanceTime = "sistem bakımda";
         internal static string ProductsListed = "Ürüler listelendş";
-        
+        public static string ProductCountofCategoryError="bşr kategoridwe 10 ürün limit var";
+        public static string ProductNameAlreadyExists = "bu ütüen var  ";
     }
 }

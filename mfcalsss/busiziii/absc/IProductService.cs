@@ -23,7 +23,7 @@ public  interface IProductService
          
         IDataResult<List<Product>> GetAll();
 
-
+        IResult Update(Product product);
 
 
 
