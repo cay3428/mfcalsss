@@ -1,4 +1,5 @@
 ﻿using busiziii.absc;
+using busiziii.CCS;
 using busiziii.contan;
 using busiziii.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -18,6 +19,9 @@ namespace busiziii.concan
     public class ProductManager : IProductService
     {
        IProductDal  _productDal;
+        ILogger _logger;
+
+
 
         public ProductManager (IProductDal productDal)
         {
@@ -86,19 +90,31 @@ namespace busiziii.concan
         //    [RemoveCache]
         //    [Transcation]
         //    [Performance]
-        [ValidationAspect(typeof(ProductValidator))]
+        [ValidationAspect(typeof(Product ))]
 
     public    IResult Add(Product product)
         {
+            _logger.Log();
+            try
+            {
+                _productDal.Add(product);
+
+
+                return new SuccessResult(Messages.ProductAdded);
+
+            }
+            catch (Exception exception)
+            {
+
+                _logger.Log();
+            }
+
+            return new ErrorResult(); 
 
             //ValidationTool.Validate(new ProductValidator(), product);
             
 
-            _productDal.Add(product);
-
-
-            return new SuccessResult(Messages.ProductAdded);
-
+          
      
             
             

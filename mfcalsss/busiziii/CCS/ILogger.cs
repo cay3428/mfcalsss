@@ -4,7 +4,18 @@ using System.Text;
 
 namespace busiziii.CCS
 {
-    interface ILogger
+  public   interface ILogger
     {
+        void Log();
+ 
+
+
+
+
+
+
+
+
     }
+
 }
