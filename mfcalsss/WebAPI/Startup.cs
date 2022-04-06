@@ -33,7 +33,7 @@ namespace WebAPI
             //services.AddSingleton<IProductService,ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();
 
-
+            services.AddCors();
 
 
         }

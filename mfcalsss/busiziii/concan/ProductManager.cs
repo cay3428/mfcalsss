@@ -1,6 +1,7 @@
 ﻿using busiziii.absc;
 using busiziii.contan;
 using busiziii.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using datacsessssa.ana;
@@ -85,11 +86,12 @@ namespace busiziii.concan
         //    [RemoveCache]
         //    [Transcation]
         //    [Performance]
+        [ValidationAspect(typeof(ProductValidator))]
 
     public    IResult Add(Product product)
         {
 
-            ValidationTool.Validate(new ProductValidator(), product);
+            //ValidationTool.Validate(new ProductValidator(), product);
             
 
             _productDal.Add(product);
@@ -97,12 +99,10 @@ namespace busiziii.concan
 
             return new SuccessResult(Messages.ProductAdded);
 
-            _productDal.Add(product);
-            //Result result = new Result();
+     
             
             
-            
-            return new SuccessResult("eklendş");
+
         }
 
        
@@ -132,3 +132,6 @@ namespace busiziii.concan
 ////    return new ErrorResult(Messages.ProductNameInvalid);
 
 ////}
+///         //   return new SuccessResult("eklendş");
+///               // _productDal.Add(product);
+//Result result = new Result();

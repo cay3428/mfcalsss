@@ -13,7 +13,7 @@ namespace konıu
         {
 
             //CategoryTest();
-            //ProductTest();
+            ProductTest();
 
         }
         private static void CategoryTest()

@@ -77,3 +77,5 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
