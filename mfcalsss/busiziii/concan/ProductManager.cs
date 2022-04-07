@@ -23,13 +23,13 @@ namespace busiziii.concan
     {
         ICategoryService _categoryService;
         IProductDal  _productDal;
-        // ICategoryDal _categoryDal;
+         ICategoryDal _categoryDal;
 
 
-        public ProductManager(IProductDal productDal,ICategoryService categoryService)
+        public ProductManager(IProductDal productDal,ICategoryService categoryService,ICategoryDal categoryDal)
         {
             _categoryService = categoryService;
-           // _categoryDal= categoryDal;
+           _categoryDal= categoryDal;
 
             _productDal = productDal;
 
@@ -94,7 +94,9 @@ namespace busiziii.concan
         //    [RemoveCache]
         //    [Transcation] 
         //    [Performance]
+        //[SecuredOperation("product.admin,editor,")]
         [ValidationAspect(typeof(Product ))]
+
 
     public    IResult Add(Product product)
         {
@@ -196,7 +198,15 @@ namespace busiziii.concan
 
         }
 
-
+        private IResult CheckIfCategoryLimitExceded()
+        {
+            var result = _categoryService.GetAll();
+            if (result.Data.Count>15)
+            {
+                return new ErrorResult(Messages.CategoryLimitExceded);
+            }
+            return new SuccessResult();
+        }
 
 
 

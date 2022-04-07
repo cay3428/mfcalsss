@@ -1,4 +1,5 @@
 ﻿using busiziii.absc;
+using Core.Utilities.Results;
 using DataAccsess.ana;
 using System;
 using System.Collections.Generic;
@@ -18,22 +19,20 @@ namespace busiziii.concan
         }
 
 
-        public List<Category> GetAll()
+        public IDataResult <List<Category>> GetAll()
         {
-            return _categoryDal.GetAll();
+            return new SuccesDataResult<List<Category >>(_categoryDal.GetAll());
         }
 
-        public Category GetById(int categoryId)
+        public IDataResult <Category> GetById(int categoryId)
         {
 
-            return  _categoryDal.Get(c => c.CategoryID == categoryId);
+            return new SuccesDataResult <Category >( _categoryDal.Get(c => c.CategoryID == categoryId));
  
         }
 
-        List<Category> ICategoryService.GetById(int categoryId)
-        {
-            throw new NotImplementedException();
-        }
+
+     
     }
 }
 

@@ -9,8 +9,9 @@ using datacsessssa.ana;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Utilities.Interceptor;
+using Core.Utilities;
 using busiziii.CCS;
+using Core.Utilities.Interceptors;
 
 namespace busiziii.DependencyResolver.Autofac
 {

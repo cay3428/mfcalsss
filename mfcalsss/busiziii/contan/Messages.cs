@@ -13,5 +13,6 @@ namespace busiziii.contan
         internal static string ProductsListed = "Ürüler listelendş";
         public static string ProductCountofCategoryError="bşr kategoridwe 10 ürün limit var";
         public static string ProductNameAlreadyExists = "bu ütüen var  ";
+        public  static string CategoryLimitExceded = "15 kategori limiti var";
     }
 }
