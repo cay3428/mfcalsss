@@ -1,7 +1,6 @@
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\ConsoleIU.csprojAssemblyReference.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\ConsoleIU.AssemblyInfoInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\ConsoleIU.AssemblyInfo.cs
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\obj\Debug\netcoreapp3.1\ConsoleIU.csproj.CoreCompileInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\busiziii.exe
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\ConsoleIU.exe
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\ConsoleIU.deps.json
@@ -36,7 +35,6 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -68,3 +66,10 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll

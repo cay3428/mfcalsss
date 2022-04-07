@@ -32,7 +32,6 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -66,7 +65,8 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\FluentValidation.dll
-C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\obj\Debug\netcoreapp3.1\busiziii.csproj.CoreCompileInputs.cache
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
