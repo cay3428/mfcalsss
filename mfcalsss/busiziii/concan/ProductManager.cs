@@ -24,14 +24,14 @@ namespace busiziii.concan
     {
         ICategoryService _categoryService;
         IProductDal  _productDal;
-         ICategoryDal _categoryDal;
+         //ICategoryDal _categoryDal;
 
 
-        public ProductManager(IProductDal productDal,ICategoryService categoryService,ICategoryDal categoryDal)
+        public ProductManager(IProductDal productDal,ICategoryService categoryService)
         {
             _categoryService = categoryService;
-           _categoryDal= categoryDal;
-
+            //_categoryDal= categoryDal;
+            //CategoryDal categoryDal
             _productDal = productDal;
 
         }

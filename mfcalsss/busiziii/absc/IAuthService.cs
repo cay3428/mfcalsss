@@ -8,7 +8,7 @@ using Entities.DTOs;
 
 namespace busiziii.absc
 {
-    interface IAuthService
+    public interface IAuthService
     {
         IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password);
         IDataResult<User> Login(UserForLoginDto userForLoginDto);

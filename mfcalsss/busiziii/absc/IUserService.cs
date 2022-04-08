@@ -5,7 +5,7 @@ using System.Text;
 
 namespace busiziii.absc
 {
-    interface IUserService
+    public interface IUserService
     {
         List<OperationClaim> GetClaims(User user);
         void Add(User user);

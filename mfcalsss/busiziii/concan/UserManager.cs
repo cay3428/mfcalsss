@@ -24,7 +24,7 @@ namespace Business.Concrete
 
         public void Add(User user)
         {
-            _userDal.Add(user);
+            _userDal.Ekle(user);
         }
 
         public User GetByMail(string email)

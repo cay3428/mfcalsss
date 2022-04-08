@@ -12,6 +12,8 @@ using System.Text;
 using Core.Utilities;
 using busiziii.CCS;
 using Core.Utilities.Interceptors;
+using Business.Concrete;
+using Core.Utilities.Security.JWT;
 
 namespace busiziii.DependencyResolver.Autofac
 {
@@ -29,6 +31,12 @@ namespace busiziii.DependencyResolver.Autofac
             builder.RegisterType<EfCategoryDal>().As<ICategoryDal>().SingleInstance();
 
             builder.RegisterType<FileLogger>().As<ILogger>().SingleInstance();
+
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

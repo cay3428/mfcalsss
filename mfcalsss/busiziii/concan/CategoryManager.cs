@@ -11,28 +11,26 @@ namespace busiziii.concan
     public class CategoryManager : ICategoryService
     {
         ICategoryDal _categoryDal;
-        
-      
-     public CategoryManager(ICategoryDal categoryDal)
+
+        public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
         }
 
-
-        public IDataResult <List<Category>> GetAll()
+        public IDataResult<List<Category>> GetAll()
         {
-            return new SuccesDataResult<List<Category >>(_categoryDal.GetAll());
+            //İş kodları
+            return new SuccesDataResult<List<Category>>(_categoryDal.GetAll());
         }
 
-        public IDataResult <Category> GetById(int categoryId)
+        //Select * from Categories where CategoryId = 3
+        public IDataResult<Category> GetById(int categoryId)
         {
-
-            return new SuccesDataResult <Category >( _categoryDal.Get(c => c.CategoryID == categoryId));
- 
+            return new SuccesDataResult<Category>(_categoryDal.Get(c => c.CategoryID == categoryId));
         }
 
 
-     
+
     }
 }
 
