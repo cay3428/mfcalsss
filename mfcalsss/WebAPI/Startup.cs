@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using busiziii.absc;
 using busiziii.concan;
+using Core.DependencyResolvers;
 using Core.Extensions;
 using Core.Utilities.IoC;
 using Core.Utilities.Security.Encryption;
@@ -40,7 +41,7 @@ namespace WebAPI
             services.AddControllers();
             //services.AddSingleton<IProductService,ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();
-            services.AddSingleton < IHttpContextAccessor,HttpContextAccessor>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddCors();
 
@@ -60,10 +61,13 @@ namespace WebAPI
                             ValidateIssuerSigningKey = true,
                             IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                         };
-                    }) ;
+                    });
 
+            services.AddDependencyResolvers(new ICoreModule[]
+            {
+                new CoreModule()
+            });
           
-            
 
 
 
