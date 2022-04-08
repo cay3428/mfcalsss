@@ -1,4 +1,5 @@
 ﻿using busiziii.absc;
+using busiziii.BusinessAspects.Autofac;
 using busiziii.CCS;
 using busiziii.contan;
 using busiziii.ValidationRules.FluentValidation;
@@ -94,7 +95,7 @@ namespace busiziii.concan
         //    [RemoveCache]
         //    [Transcation] 
         //    [Performance]
-        //[SecuredOperation("product.admin,editor,")]
+        [SecuredOperation("product.admin,editor,")]
         [ValidationAspect(typeof(Product ))]
 
 

@@ -1,9 +1,11 @@
-﻿using Entities.cerezz;
+﻿using Core.Entities.Concrete;
+using Entities.cerezz;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using varlıksss.cerezz;
+
 
 namespace DataAccsess.cerezzz.EntityFramework
 {
@@ -18,17 +20,16 @@ namespace DataAccsess.cerezzz.EntityFramework
         public DbSet<Category> categories { get; set; }
             public DbSet <Customer>customer { get; set; }
             public DbSet<Order> Orders { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+         public DbSet<User >Users { get; set; }
+         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
 
         
-        
+
+
+
+
+
         }
-
-
-
-
-
-
-
-
     }
 

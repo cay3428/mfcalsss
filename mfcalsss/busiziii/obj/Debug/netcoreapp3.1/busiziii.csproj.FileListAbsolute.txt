@@ -70,3 +70,5 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\busiziii\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll

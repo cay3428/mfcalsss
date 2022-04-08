@@ -73,3 +73,5 @@ C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ACem_\Documents\GitHub\mfcalsss\mfcalsss\konıu\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
