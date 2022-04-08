@@ -14,6 +14,7 @@ using busiziii.CCS;
 using Core.Utilities.Interceptors;
 using Business.Concrete;
 using Core.Utilities.Security.JWT;
+using Microsoft.AspNetCore.Http;
 
 namespace busiziii.DependencyResolver.Autofac
 {
@@ -37,6 +38,9 @@ namespace busiziii.DependencyResolver.Autofac
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+
+            builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>();
+
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
