@@ -7,7 +7,7 @@ namespace busiziii.absc
 {
     public interface IUserService
     {
-        List<OperationClaim> GetClaims(User user);
+        List<OperationClaims> GetClaims(User user);
         void Add(User user);
         User GetByMail(string email);
     }

@@ -7,11 +7,10 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Text.RegularExpressions;
 using System.Linq;
 
-namespace Core.CrossCuttingConcerns.Cathing.Microsoft
+namespace Core.CrossCuttingConcerns.Caching.Microsoft
 {
-    public class MemoryCacheManager
+    public class MemoryCacheManager : ICacheManager
     {
-
         IMemoryCache _memoryCache;
         public MemoryCacheManager()
         {
@@ -63,13 +62,5 @@ namespace Core.CrossCuttingConcerns.Cathing.Microsoft
                 _memoryCache.Remove(key);
             }
         }
-
-
-
-
-
-
-
-
     }
 }

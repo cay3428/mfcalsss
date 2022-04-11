@@ -3,6 +3,7 @@ using busiziii.BusinessAspects.Autofac;
 using busiziii.CCS;
 using busiziii.contan;
 using busiziii.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
@@ -67,6 +68,8 @@ namespace busiziii.concan
 
             return new SuccesDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryID == id));
         }
+
+        [CacheAspect]
 
         public IDataResult < Product> GetById(int procudtId)
         {

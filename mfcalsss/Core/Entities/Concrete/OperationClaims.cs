@@ -1,6 +1,6 @@
 ﻿namespace Core.Entities.Concrete
 {
-    public class OperationClaim :IEntities
+    public class OperationClaims :IEntities
     {
         public int Id { get; set; }
 

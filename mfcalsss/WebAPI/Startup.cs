@@ -41,7 +41,7 @@ namespace WebAPI
             services.AddControllers();
             //services.AddSingleton<IProductService,ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        
 
             services.AddCors();
 
@@ -62,6 +62,9 @@ namespace WebAPI
                             IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                         };
                     });
+
+           //   ServiceTool.Create(services);
+
 
             services.AddDependencyResolvers(new ICoreModule[]
             {
@@ -115,6 +118,8 @@ namespace WebAPI
             {
                 endpoints.MapControllers();
             });
+
+
         }
     }
 }

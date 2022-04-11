@@ -11,7 +11,7 @@ namespace DataAccsess.ana
 
 
 
-        List<OperationClaim> GetClaims(User user);
+        List<OperationClaims> GetClaims(User user);
 
 
 

@@ -10,7 +10,7 @@ namespace DataAccsess.cerezzz.EntityFramework
 {
     public class EfUserDal : EfEntityResporityBase<User, NorthwindContext>, IUserDal
     {
-        public List<OperationClaim> GetClaims(User user)
+        public List<OperationClaims> GetClaims(User user)
         {
             using (var context = new NorthwindContext())
             {
@@ -18,7 +18,7 @@ namespace DataAccsess.cerezzz.EntityFramework
                              join userOperationClaim in context.UserOperationClaims
                                  on operationClaim.Id equals userOperationClaim.OperationClaimId
                              where userOperationClaim.UserId == user.Id
-                             select new OperationClaim { Id = operationClaim.Id, Name = operationClaim.Name };
+                             select new OperationClaims { Id = operationClaim.Id, Name = operationClaim.Name };
                 return result.ToList();
 
             }
